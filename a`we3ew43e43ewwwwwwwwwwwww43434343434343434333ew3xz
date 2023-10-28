@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NS Dienstleistung - Ihre Reinigungsfirma</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .content {
+            background-color: white;
+            padding: 20px;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NS Dienstleistung - Ihre Reinigungsfirma</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#startseite">Startseite</a></li>
+            <li><a href="#dienstleistungen">Dienstleistungen</a></li>
+            <li><a href="#über-uns">Über uns</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+    <div class="container" id="startseite">
+        <div class="content">
+            <h2>Willkommen bei NS Dienstleistung</h2>
+            <p>Wir bieten professionelle Reinigungsdienstleistungen für Ihr Zuhause oder Unternehmen. Unsere Experten sorgen für Sauberkeit und Hygiene in jeder Ecke.</p>
+        </div>
+    </div>
+    <div class="container" id="dienstleistungen">
+        <div class="content">
+            <h2>Unsere Dienstleistungen</h2>
+            <ul>
+                <li>Grundreinigung</li>
+                <li>Fensterreinigung</li>
+                <li>Büroreinigung</li>
+                <li>Teppichreinigung</li>
+                <li>und mehr...</li>
+            </ul>
+        </div>
+    </div>
+    <div class "container" id="über-uns">
+        <div class="content">
+            <h2>Über uns</h2>
+            <p>NS Dienstleistung hat jahrelange Erfahrung und arbeitet mit hochqualifizierten Mitarbeitern, um Ihren Anforderungen gerecht zu werden.</p>
+        </div>
+    </div>
+    <div class="container" id="kontakt">
+        <div class="content">
+            <h2>Kontaktieren Sie uns</h2>
+            <p>Adresse: Musterstraße 123, 12345 Musterstadt</p>
+            <p>Telefon: +49 123 456789</p>
+            <p>Email: info@ns-dienstleistung.de</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 NS Dienstleistung - Ihre Reinigungsfirma
+    </footer>
+</body>
+</html>
+ 
